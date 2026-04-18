@@ -1,6 +1,5 @@
 """
-FileSystem.py
-A lightweight filesystem abstraction layer (custom API design)
+shho.py probably
 """
 
 import os
