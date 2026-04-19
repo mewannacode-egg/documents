@@ -290,7 +290,7 @@ class Path:
         try:
             stats = os.stat(src)
             return {
-                "path": _Internal.normalize(src),
+                "path": os.path.abspath(src),
                 "type": "file" if os.path.isfile(src) else "folder" if os.path.isdir(src) else "unknown",
                 "size": stats.st_size,
                 "modified": stats.st_mtime,
