@@ -4,4 +4,7 @@
 
 # ver 0.1.1:
 -This version fixes some bugs.
+
 -added folder.compress(src)
+
+-added path.backup(src)
