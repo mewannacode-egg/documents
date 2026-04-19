@@ -25,7 +25,7 @@ class _Internal:
         return fallback
 
 
-# FILE API (public)
+# FILE API 
 class File:
 
     @staticmethod
